@@ -4,7 +4,11 @@ module.exports = {
     "./src/App.js"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'syneMono': 'Syne Mono'
+      }
+    },
   },
   plugins: [],
 };
